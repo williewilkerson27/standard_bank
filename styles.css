@@ -18,7 +18,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 30px 10%;
-    background-color: #868694;
+    background-color: #1F2937;
 }
 
 .logo {
@@ -43,4 +43,49 @@ nav {
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
+}
+
+.heading_container {
+    display: flex;
+    background-color: #1F2937;
+    
+}
+
+.heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    font-size: 45px;
+    color: whitesmoke;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.heading_span {
+    display: flex;
+    font-size: medium;
+    font-weight: 300;
+    justify-self: center;
+    
+}
+
+.heading_img {
+    height: 300px;
+    width: 900px;   
+}
+
+.heading_button {
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    color: blue;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-timing-function: .5s ease-in-out;
+    
 }
